@@ -49,7 +49,7 @@ li {
 
 .navbar-brand {
   pointer-events: none;
-  position: relative;
+  position: static;
   padding: 22px;
   left: 10px;
   font-weight: bold;
