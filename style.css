@@ -423,6 +423,13 @@ img.zoom {
   {
     padding: 20px;
   }
+  #HOME h1 {
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    padding: 20px;
+  }
+}
 
 #footer
 {
