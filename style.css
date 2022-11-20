@@ -39,21 +39,21 @@ li {
   border: 2px solid transparent;
 }
 
-.a1 {
+/* .a1 {
   position: absolute;
   top: 70px;
   font-family: sans-serif;
   font-size: 10px;
-  left: 6.7rem;
+  left: 6rem;
   color: black;
   font-weight: lighter;
-}
+} */
 
 .navbar-brand {
   pointer-events: none;
   position: static;
-  padding: 22px;
-  left: 10px;
+  
+
   font-weight: bold;
   font-size: 30px;
   letter-spacing: .3px;
@@ -441,6 +441,10 @@ img.zoom {
     font-weight: bolder;
     padding: 20px;
   }
+  navbar-brand
+  /* {
+    text-align: center;
+  } */
 }
 
 #footer
