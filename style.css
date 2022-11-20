@@ -52,7 +52,7 @@ li {
 .navbar-brand {
   pointer-events: none;
   position: static;
-  
+
 
   font-weight: bold;
   font-size: 30px;
@@ -315,22 +315,22 @@ font-weight: 900;
 #newsfeed .card
 {
 
-  border-width: .4vw !important;
+  border-width: .3vw !important;
   box-shadow: 10px 10px 10px rgba(0,0,0,0),
   inset 4px 4px 10px white;
-  padding: 30px;
+  /* padding: 30px; */
   border-color:  #016837;
 
 }
 #newsfeed img
 {
-  border-radius: 20px;
+  border-radius: 10px;
 
 }
 
 #newsfeed h3
 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding-top: 4%;
   font-weight: bold;
 }
@@ -345,11 +345,8 @@ font-size: 1.5rem;
 {
   font-size: 1rem;
 }
-#newsfeed p
-{
-  font-size: 1.5rem;
-}
-@media screen and (max-width:1028px)
+
+/* @media screen and (max-width:1028px)
 {
   #newsfeed h3
   {
@@ -366,7 +363,7 @@ font-size: 1.5rem;
   #newsfeed p
     {
       font-size: .5rem;
-    }
+    } */
 
 
 #GALLERY
@@ -441,10 +438,10 @@ img.zoom {
     font-weight: bolder;
     padding: 20px;
   }
-  navbar-brand
-  /* {
-    text-align: center;
-  } */
+  #VIDEO
+  {
+    min-height: 50%;
+  }
 }
 
 #footer
@@ -463,3 +460,7 @@ background: #016837;
 {
   justify-content: flex-start !important;
 }
+/* #VIDEO
+{
+  overflow-y: hidden;
+} */
