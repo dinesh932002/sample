@@ -56,6 +56,7 @@ li {
   font-size: 30px;
   letter-spacing: .3px;
   color: white;
+	overflow-x:hidden;
 
 }
 
@@ -69,6 +70,7 @@ li {
   background-size: cover;
   background-position: center;
   flex-direction: column;
+	overflow-x:hidden;
 
 }
 
